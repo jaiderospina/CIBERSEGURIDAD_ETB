@@ -14,13 +14,33 @@ El servidor Xming interpreta estas aplicaciones gráficas y las muestra en el es
 1. **Instalar SSH Server**: Si no tienes el servidor SSH instalado en Kali Linux, puedes hacerlo ejecutando el siguiente comando en la terminal:
    ```
    sudo apt update
+   sudo apt upgrade
    sudo apt install openssh-server
    ```
 
 2. **Iniciar el Servicio SSH**: Asegúrate de que el servicio SSH esté en funcionamiento ejecutando:
    ```
-   sudo service ssh start
+   sudo systemctl start ssh 
+   sudo systemctl enable ssh
    ```
+NOTA_1:
+
+Para validar el estado del servicio ingresa:
+
+   ```
+   sudo systemctl status ssh 
+   ```
+NOTA_2:
+
+Archivo de configuración ssh  -->  
+
+   ```
+   #cd /etc/ssh
+   #vi sshd_config
+   ```
+
+
+
 
 3. **Configurar el servicio**: Abre el archivo de configuración SSH:
 
