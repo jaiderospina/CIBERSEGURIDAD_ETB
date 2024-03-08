@@ -53,6 +53,10 @@ Inicia la conexión SSH.
 
 ![ Putty X11.](https://github.com/jaiderospina/CIBERSEGURIDAD_ETB/blob/main/images/REPOS/X11_PUTTY.png)
 
+
+![ Putty X11.](https://github.com/jaiderospina/CIBERSEGURIDAD_ETB/blob/main/images/REPOS/X11_PUTTY_Conexion%20(Phone).png)
+
+
 ## Conectar a Kali Linux desde Windows y Abrir Nautilus
 
 1. **Iniciar Xming**: Después de instalar Xming, inicia el programa desde el acceso directo en el escritorio o desde el menú de inicio de Windows.
