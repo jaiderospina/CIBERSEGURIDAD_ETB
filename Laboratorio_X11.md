@@ -30,7 +30,7 @@ nano /etc/ssh/sshd_config
 Asegurarte  que se encuentre habilitado el X11 forwarding. Para ello debe encontrarse seteado la variable en el archivo de consifuración del servidor ssh (sshd_config)
 
  ```
- PermitRootLogin yes
+ X11Forwarding yes
  ```
 
 
@@ -62,12 +62,6 @@ Inicia la conexión SSH.
 1. **Iniciar Xming**: Después de instalar Xming, inicia el programa desde el acceso directo en el escritorio o desde el menú de inicio de Windows.
 
 2. **Conectar a Kali Linux**: Abre tu cliente SSH favorito en Windows (como PuTTY) y conecta a la dirección IP de tu Kali Linux. Asegúrate de habilitar X11 forwarding en la configuración de conexión SSH.
-
-3. **Iniciar Sesión en Kali Linux**: Ingresa tu nombre de usuario y contraseña cuando se te solicite para iniciar sesión en Kali Linux a través de SSH.
-
-   ```
-   $ssh -X kali@IP
-   ```
 
 4. **Abrir Nautilus**: Ahora, puedes abrir Nautilus (o cualquier otra aplicación gráfica) desde la línea de comandos de Kali Linux. Simplemente escribe:
    
