@@ -86,7 +86,7 @@ Inicia la conexión SSH.
 4. **Abrir Nautilus**: Ahora, puedes abrir Nautilus (o cualquier otra aplicación gráfica) desde la línea de comandos de Kali Linux. Simplemente escribe:
    
    ```
-   xeyes
+   $xeyes
    ```
 
 
