@@ -47,7 +47,7 @@ Archivo de configuración ssh  -->
  ```
 nano /etc/ssh/sshd_config
  ```
-Asegurarte  que se encuentre habilitado el X11 forwarding. Para ello debe encontrarse seteado la variable en el archivo de consifuración del servidor ssh (sshd_config)
+Asegurarte  que se encuentre habilitado el X11 forwarding. Para ello debe encontrarse seteado la variable en el archivo de configuración del servidor ssh (sshd_config)
 
  ```
  X11Forwarding yes
@@ -86,7 +86,7 @@ Inicia la conexión SSH.
 4. **Abrir Nautilus**: Ahora, puedes abrir Nautilus (o cualquier otra aplicación gráfica) desde la línea de comandos de Kali Linux. Simplemente escribe:
    
    ```
-   nautilus
+   xeyes
    ```
 
 
