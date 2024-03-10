@@ -5,12 +5,12 @@ Para comenzar, sigue estos pasos para instalar Lynis:
 
 1. **Clona o descarga los archivos del proyecto** desde el repositorio oficial de Lynis en GitHub:
    ```
-   git clone https://github.com/CISOfy/lynis
+   #git clone https://github.com/CISOfy/lynis
    ```
 
 2. **Accede al directorio de Lynis**:
    ```
-   cd lynis
+   #cd lynis
    ```
 
 ### 2. Ejecución de la Auditoría
@@ -18,7 +18,7 @@ Una vez instalado, puedes ejecutar una auditoría de seguridad en tu servidor o 
 
 1. **Inicia la auditoría** con el siguiente comando:
    ```
-   ./lynis audit system
+   #./lynis audit system
    ```
 
 2. **Verifica los reportes generados**:
@@ -47,9 +47,22 @@ Aquí algunos parámetros comunes que puedes utilizar al ejecutar Lynis:
 - `--quiet`: Muestra solo advertencias (incluye `--quick`, pero no espera).
 - `--reverse-colors`: Utiliza un esquema de colores diferente para fondos claros.
 
+
+###  Revisa los resultados
+
+a. Exámina los resultados.
+
+¿Investiga sobre algunas  del las advertencias?
+
+¿Cuántas sugerencias existen?
+
+b. Desplázate hasta las sugerencias y seleccione ters. Investiga las sugerencias para resolver el problema.
+
+Documenta las investigación realizada detallando la vulnerabilidad, su impacto y 
+
 ### 4. Documentación Adicional
 Si deseas profundizar más, puedes consultar la [documentación oficial de Lynis](https://github.com/CISOfy/lynis).
 
-Recuerda que Lynis es una herramienta poderosa para mejorar la seguridad de tus servidores. ¡Utilízala con responsabilidad y mantén tus sistemas protegidos! 🛡️
+Recuerda que Lynis es una herramienta poderosa para mejorar la seguridad de tus servidores. 🛡️
 
 https://github.com/CISOfy/lynis.
