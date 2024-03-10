@@ -31,6 +31,7 @@ Una vez instalado, puedes ejecutar una auditoría de seguridad en tu servidor o 
      cat /var/log/lynis-report.dat
      ```
 Interpretación de los Resultados
+
 Lynis mostrará una lista de sugerencias y advertencias sobre posibles problemas de seguridad en tu sistema. Aquí hay algunas pautas para interpretar los resultados:
 
 [+]: Indica una sugerencia.
