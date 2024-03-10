@@ -30,6 +30,13 @@ Una vez instalado, puedes ejecutar una auditoría de seguridad en tu servidor o 
      ```
      cat /var/log/lynis-report.dat
      ```
+Interpretación de los Resultados
+Lynis mostrará una lista de sugerencias y advertencias sobre posibles problemas de seguridad en tu sistema. Aquí hay algunas pautas para interpretar los resultados:
+
+[+]: Indica una sugerencia.
+[-]: Indica una advertencia.
+[?]: Indica una nota o sugerencia de mejora.
+Sigue las recomendaciones proporcionadas por Lynis para mejorar la seguridad de tu sistema.
 
 ### 3. Parámetros Útiles
 Aquí algunos parámetros comunes que puedes utilizar al ejecutar Lynis:
@@ -48,11 +55,9 @@ Aquí algunos parámetros comunes que puedes utilizar al ejecutar Lynis:
 - `--reverse-colors`: Utiliza un esquema de colores diferente para fondos claros.
 
 
-###  Revisa los resultados
+###  Revisa los resultados y exámina los resultados.
 
-a. Exámina los resultados.
-
-¿Investiga sobre algunas  del las advertencias?
+a. ¿Investiga sobre algunas  del las advertencias?
 
 ¿Cuántas sugerencias existen?
 
