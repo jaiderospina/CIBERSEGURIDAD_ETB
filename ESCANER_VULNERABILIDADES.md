@@ -34,8 +34,11 @@ Interpretación de los Resultados
 Lynis mostrará una lista de sugerencias y advertencias sobre posibles problemas de seguridad en tu sistema. Aquí hay algunas pautas para interpretar los resultados:
 
 [+]: Indica una sugerencia.
+
 [-]: Indica una advertencia.
+
 [?]: Indica una nota o sugerencia de mejora.
+
 Sigue las recomendaciones proporcionadas por Lynis para mejorar la seguridad de tu sistema.
 
 ### 3. Parámetros Útiles
