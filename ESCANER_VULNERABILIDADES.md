@@ -40,7 +40,24 @@ Lynis mostrará una lista de sugerencias y advertencias sobre posibles problemas
 
 [?]: Indica una nota o sugerencia de mejora.
 
-Sigue las recomendaciones proporcionadas por Lynis para mejorar la seguridad de tu sistema.
+
+###  Algunos comandos de interés.
+
+ - Ver la versión instalada.
+
+    ```
+    ./lynis show version
+    ```
+ - MODO DE ESCANEO SIN PRIVILEGIOS, algunas pruebas no se ejecutarán ya que requieren permiso de root.
+   
+    ```
+    ./lynis audit system -Q
+    ```
+ - Resumen de principales comandos. 
+   
+    ```
+    ./lynis show commands
+    ```
 
 ### 3. Parámetros Útiles
 Aquí algunos parámetros comunes que puedes utilizar al ejecutar Lynis:
@@ -69,9 +86,14 @@ b. Desplázate hasta las sugerencias y seleccione ters. Investiga las sugerencia
 
 Documenta las investigación realizada detallando la vulnerabilidad, su impacto y 
 
+### Reto
+
+Averigua sobre la automatización de tareas mediante cron y automatiza la laor para ejecutar lynis una vez a la semana y enviar un email con el informe generado.
+
 ### 4. Documentación Adicional
 Si deseas profundizar más, puedes consultar la [documentación oficial de Lynis](https://github.com/CISOfy/lynis).
 
 Recuerda que Lynis es una herramienta poderosa para mejorar la seguridad de tus servidores. 🛡️
 
 https://github.com/CISOfy/lynis.
+https://es.linux-console.net/?p=3332
