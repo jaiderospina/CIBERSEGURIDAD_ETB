@@ -106,6 +106,7 @@ Averigua sobre la automatización de tareas mediante cron y automatiza la labor 
    -  https://www.godaddy.com/resources/es/recursos/cron-que-es
    -  https://www.hostinger.co/tutoriales/cron-job
    -  https://www.stackscale.com/es/blog/cron-crontab-linux/
+   -  https://itstorage.net/index.php/ldce/islme/239-slau-6
 
 ### 4. Documentación Adicional
 Si deseas profundizar más, puedes consultar la [documentación oficial de Lynis](https://github.com/CISOfy/lynis).
