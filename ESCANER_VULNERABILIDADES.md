@@ -90,8 +90,9 @@ Documenta las investigación realizada detallando la vulnerabilidad, su impacto 
 
 Averigua sobre la automatización de tareas mediante cron y automatiza la labor para ejecutar lynis una vez a la semana.
     
-    -  https://www.godaddy.com/resources/es/recursos/cron-que-es
-    -  https://www.hostinger.co/tutoriales/cron-job
+   Fuentes:
+   -  https://www.godaddy.com/resources/es/recursos/cron-que-es
+   -  https://www.hostinger.co/tutoriales/cron-job
 
 ### 4. Documentación Adicional
 Si deseas profundizar más, puedes consultar la [documentación oficial de Lynis](https://github.com/CISOfy/lynis).
