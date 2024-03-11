@@ -40,7 +40,7 @@ Una vez instalado, puedes ejecutar una auditoría de seguridad en tu servidor o 
      cat /var/log/lynis-report.dat
      ```
 
-![lynis](https://github.com/jaiderospina/CIBERSEGURIDAD_ETB/blob/main/images/REPOS/X11_PUTTY.png)
+![lynis](https://github.com/jaiderospina/CIBERSEGURIDAD_ETB/blob/main/images/REPOS/Lynis%20(Phone).png)
 
 Interpretación de los Resultados
 
