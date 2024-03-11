@@ -76,7 +76,7 @@ Aquí algunos parámetros comunes que puedes utilizar al ejecutar Lynis:
 - `--reverse-colors`: Utiliza un esquema de colores diferente para fondos claros.
 
 
-###  Revisa los resultados y exámina los resultados.
+###  4. Revisa los resultados y exámina los resultados.
 
 a. ¿Investiga sobre algunas  del las advertencias?
 
@@ -86,9 +86,12 @@ b. Desplázate hasta las sugerencias y seleccione ters. Investiga las sugerencia
 
 Documenta las investigación realizada detallando la vulnerabilidad, su impacto y 
 
-### Reto
+###  5. Reto
 
-Averigua sobre la automatización de tareas mediante cron y automatiza la laor para ejecutar lynis una vez a la semana y enviar un email con el informe generado.
+Averigua sobre la automatización de tareas mediante cron y automatiza la labor para ejecutar lynis una vez a la semana.
+    
+    -  https://www.godaddy.com/resources/es/recursos/cron-que-es
+    -  https://www.hostinger.co/tutoriales/cron-job
 
 ### 4. Documentación Adicional
 Si deseas profundizar más, puedes consultar la [documentación oficial de Lynis](https://github.com/CISOfy/lynis).
