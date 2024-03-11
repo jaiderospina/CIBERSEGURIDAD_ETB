@@ -96,7 +96,7 @@ a. ¿Investiga sobre algunas  del las advertencias?
 
 b. Desplázate hasta las sugerencias y seleccione ters. Investiga las sugerencias para resolver el problema.
 
-Documenta las investigación realizada detallando la vulnerabilidad, su impacto y 
+Documenta las investigación realizada detallando la vulnerabilidad, su impacto.
 
 ###  5. Reto
 
