@@ -1,4 +1,4 @@
-# Laboratorio Hardening ETB 2024
+# Laboratorio Hardening ETB 2024.
 
 En grupos de dos a cuatro integrantes (se recomienda mínimo un integrante con experticia en cada uno de ellos), realizar el siguiente laboratorio. 
 
