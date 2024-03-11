@@ -1,6 +1,8 @@
 # Laboratorio Hardening ETB 2024
 
-En grupos de dos a cuatro integrantes (se recomienda mínimo un integrante con experticia en cada uno de ellos!) realizar el siguiente laboratorio. 
+En grupos de dos a cuatro integrantes (se recomienda mínimo un integrante con experticia en cada uno de ellos), realizar el siguiente laboratorio. 
+
+NOTA: 
 
 Teniendo en consideración que nuestro curso es para un público experto; sumado al hecho de que toda formación técnica implica conocimiento y competencias profesionales de investigación, se presenta retos que potencialice las competencias profesionales individuales.   
 
