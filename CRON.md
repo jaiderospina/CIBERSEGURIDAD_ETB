@@ -84,13 +84,4 @@ crontab -r
 - Asegúrate de que el script o comando que planeas ejecutar con cron tiene los permisos adecuados.
 - Es una buena práctica redirigir la salida de los comandos a un archivo de registro para su revisión.
 
-Con estos pasos y ejemplos, deberías ser capaz de configurar y gestionar cron jobs en Kali Linux.
-```
 
-Para aplicar este manual en un documento Markdown, simplemente copia y pega el contenido en un archivo con la extensión `.md`. Si estás utilizando Kali Linux, puedes crear y editar este archivo usando `nano` o cualquier otro editor de texto de tu preferencia. Por ejemplo:
-
-```bash
-nano manual-cron.md
-```
-
-Y luego pega el contenido en el editor.
