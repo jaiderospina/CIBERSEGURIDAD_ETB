@@ -27,6 +27,21 @@ Cada línea en la tabla de cron tiene la siguiente estructura:
 +------------ Minuto (0 - 59)
 ```
 
+
+
+Los primeros cinco campos (fecha y hora) también aceptan los siguientes parámetros:
+
+*– El asterisco significa todos los valores permitidos. Si tiene el símbolo de asterisco en el campo Minuto, significa que la tarea se realizará cada minuto.
+-– El guion le permite especificar un rango de valores. Si lo establece 1-5 en el campo Día de la semana, la tarea se ejecutará todos los días de la semana (de lunes a viernes). El rango es inclusivo, lo que significa que el primer y último valor se incluyen en el rango.
+,– La coma le permite definir una lista de valores para su repetición. Por ejemplo, si tiene 1,3,5 en el campo Hora, la tarea se ejecutará a la 1 am, 3 am y 5 am. La lista puede contener valores y rangos únicos, 1-5,7,8,10-15
+/– La barra inclinada le permite especificar valores de paso que se pueden usar junto con rangos. Por ejemplo, si lo tiene 1-10/2 en el campo Minutos, significa que la acción se realizará cada dos minutos en el rango 1-10, igual que se especifica 1,3,5,7,9. En lugar de un rango de valores, también puede utilizar el operador de asterisco. Para especificar que un trabajo se ejecute cada 20 minutos, puede utilizar «* / 20«.
+La sintaxis de los archivos crontab de todo el sistema es ligeramente diferente a la de los crontabs del usuario. Contiene un campo de usuario obligatorio adicional que especifica qué usuario ejecutará el trabajo cron.
+
+
+```
+* * * * * <username> command(s)
+```
+          
 ## Ejemplos de Cron Jobs
 
 Aquí tienes algunos ejemplos de cron jobs:
