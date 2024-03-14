@@ -97,6 +97,14 @@ crontab -r
 
 ## Notas Finales
 
+# ComandoS crontab
+
+- -e para editar el archivo crontab actual.
+- -l para obtener una lista de las tareas del archivo crontab actual.
+- -r para eliminar de forma permanente el archivo crontab actual.
+- -u <usuario> <opción> para ejecutar una opción en el archivo crontab de otro usuario.
+
+
 - Asegúrate de que el script o comando que planeas ejecutar con cron tiene los permisos adecuados.
 - Es una buena práctica redirigir la salida de los comandos a un archivo de registro para su revisión.
 
