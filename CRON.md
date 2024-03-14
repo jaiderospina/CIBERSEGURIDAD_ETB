@@ -108,4 +108,9 @@ crontab -r
 - Asegúrate de que el script o comando que planeas ejecutar con cron tiene los permisos adecuados.
 - Es una buena práctica redirigir la salida de los comandos a un archivo de registro para su revisión.
 
+  ## ACTIVIDAD.
+
+  1. Programe un cron job  para crear una carpeta cada 30 minutos
+  2. Cree una tarea que 5 minutos de programada se ejecute y cambie los permisos de una carpeta existente que se llama Ejercicio2 y se encuentra en la ruta /home/kali/12
+
 
