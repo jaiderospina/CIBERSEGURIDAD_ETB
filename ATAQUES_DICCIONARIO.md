@@ -1,4 +1,4 @@
-### ATAQUES DE DICCIONARIO Y FERZA BRUTA
+###                                                          ATAQUES DE DICCIONARIO Y FERZA BRUTA
 
 Los ataques de diccionario y de fuerza bruta son dos métodos comúnmente utilizados para tratar de descifrar contraseñas o claves de acceso en sistemas informáticos. Aunque ambos se centran en el intento sistemático de adivinar la contraseña, difieren en su enfoque y eficiencia bajo diferentes circunstancias.
 
