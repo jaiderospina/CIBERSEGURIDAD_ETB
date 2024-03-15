@@ -58,6 +58,14 @@ crunch <longitud mínima> <longitud máxima> [opciones] [charset]
 - `[opciones]`: Opciones adicionales para personalizar la lista de palabras.
 - `[charset]`: Conjunto de caracteres personalizados a utilizar.
 
+## Patrones específicos.
+Crunch ofrece la opción -t para generar una lista de palabras usando un patrón específico, mediante el uso de la opción -t. Este permite la generación de 4 tipos de patrones como se especifica a continuación:
+
+- @: para alfabetos en minúsculas
+- ,: (‘coma’) para alfabetos en mayúsculas
+- %: para caracteres numéricos
+- ^: para el símbolo de carácter especial
+
 ## Ejemplos de Uso
 
 ### Ejemplo 1: Generar Listas de Palabras de 5 Caracteres
