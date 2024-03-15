@@ -100,13 +100,12 @@ crunch 8 8 -t @@8^%%^^
 
 Genera palabras de 8 caracteres donde `@` representa letras minúsculas, `8` dígitos y `^` letras mayúsculas. Los caracteres específicos se mantienen como están.
 
-### Ejemplo 6: Excluir Caracteres Específicos
+### Ejemplo 6: Fragmentación de la lista de palabras
 
 ```
-crunch 5 5 -c 1234567890 -o START -e END
+crunch 5 7 jaider -b 1mb -o START
 ```
-
-Genera palabras de 5 caracteres usando números del 1 al 0, empezando a generar desde "START" hasta "END".
+La opción -b prmite  la fragmentación de la lista de palabras. Esta opción es útil para dividir una lista de palabras que se puede llegar a pesar GB y mermar su tamaño a GB.
 
 ### Ejemplo 7: Generar Palabras Usando un Patrón y Excluyendo Caracteres
 
