@@ -106,7 +106,7 @@ Crea combinaciones de 3 caracteres y guarda la salida en `wordlist.txt`.
 crunch 8 8 -t @@8^%%^^
 ```
 
-Genera palabras de 8 caracteres donde `@` representa letras minúsculas, `8` dígitos y `^` letras mayúsculas. Los caracteres específicos se mantienen como están.
+Genera palabras de 8 caracteres donde `@` representa letras minúsculas, % caracter núemrico, longitud de `8` dígitos y `^` letras mayúsculas. Los caracteres específicos se mantienen como están.
 
 ### Ejemplo 6: Fragmentación de la lista de palabras
 
@@ -115,13 +115,13 @@ crunch 5 7 jaider -b 1mb -o START
 ```
 La opción -b prmite  la fragmentación de la lista de palabras. Esta opción es útil para dividir una lista de palabras que se puede llegar a pesar GB y mermar su tamaño a GB.
 
-### Ejemplo 7: Generar Palabras Usando un Patrón y Excluyendo Caracteres
+### Ejemplo 7: Generar Palabras Usando un Patrón
 
 ```
-crunch 6 6 -t ,@@@^^^ -e aeiou
+crunch 5 5 -t ,@@^^
 ```
 
-Genera palabras de 6 caracteres con el patrón `,@@@^^^` (comienza con coma, seguido de 3 letras minúsculas y 3 mayúsculas) excluyendo las vocales `a e i o u`.
+Genera palabras de 6 caracteres con el patrón `,@@@^^^` (comienza con minúscula, seguido de 2 letras minúsculas y 2 mayúsculas).
 
 ### Ejemplo 8: Especificar un Número Máximo de Combinaciones
 
