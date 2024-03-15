@@ -1,6 +1,6 @@
 ###  Actividad CRUNCH - Construcción de Diccionarios.
 
-1. Valide los primeros 8 ejemplos presentados
+1. Valide los primeros 8 ejemplos presentados en https://github.com/jaiderospina/CIBERSEGURIDAD_ETB/blob/main/ATAQUES_DICCIONARIO.md
 
 2. Tome dos ejemplos del manual de crunch, valide su funcionalidad y explique cada paramétro del comando
 
