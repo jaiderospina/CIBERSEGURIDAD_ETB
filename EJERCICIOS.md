@@ -42,3 +42,7 @@ Imagina que eres un auditor de seguridad ética realizando una prueba de penetra
 
 #### Consideraciones Éticas y Legales
 Es fundamental realizar este tipo de pruebas solo en entornos autorizados y con permiso explícito. La realización de ataques de fuerza bruta o de diccionario contra sistemas no autorizados es ilegal y éticamente reprobable. Este taller está diseñado con propósitos educativos y debe usarse como una herramienta para mejorar la seguridad y conciencia en el ámbito de la ciberseguridad.
+
+### Ejercicio en Clase. Caso de estudio "Controles PCI"
+
+Inspeccionar y reflecionar sobre el documento "Caso de Estudio_PCI.pdf", ubicado en https://drive.google.com/file/d/1-TX5W8yAdZbtS12jqpDzLokTqzaJOt88/view?usp=drive_link
