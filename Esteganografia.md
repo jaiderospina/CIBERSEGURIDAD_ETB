@@ -1,24 +1,42 @@
 ### Esteganografia
 
-Este cuadro ofrece una vista general y comparativa de las diferentes técnicas de esteganografía, facilitando la comprensión de cómo se pueden ocultar datos en diversos medios de comunicación.
+La esteganografía es la práctica de ocultar información dentro de un medio de comunicación, de manera que prevenga la detección de la información oculta. Se diferencia de la criptografía, que oculta el contenido del mensaje, ya que la esteganografía oculta la existencia misma del mensaje. Las técnicas de esteganografía pueden aplicarse a imágenes, videos, audio y textos, entre otros. A continuación, se describen algunas de las principales técnicas utilizadas en la esteganografía:
 
-```markdown
-| Medio          | Técnica                            | Descripción                                                                                                   |
-|----------------|------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Imágenes       | Sustitución de bits menos significativos (LSB) | Modifica los bits menos significativos de los píxeles para incrustar información sin cambios visuales notorios.|
-|                | Transformada de dominio           | Utiliza métodos matemáticos como DFT o DCT en la imagen para ocultar información, común en JPEG.              |
-|                | Máscaras y filtros                 | Altera visualmente la imagen mediante máscaras o filtros para ocultar información.                            |
-| Audio          | Codificación Eco                   | Introduce ecos sutiles en la señal de audio para codificar datos.                                             |
-|                | Sustitución de LSB en audio        | Cambia los bits menos significativos de un archivo de audio para incrustar información.                       |
-|                | Modulación de Frecuencia Espectral (SSM) | Altera frecuencias específicas en la señal de audio para ocultar información.                                 |
-| Texto          | Formato de texto                   | Modifica el formato del texto (espacios, tamaño de fuente, color) para representar datos ocultos.             |
-|                | Marcado lingüístico                | Utiliza peculiaridades lingüísticas para ocultar información dentro del texto.                                |
-|                | Canal Cero Ancho                   | Emplea caracteres de espacio o puntuación de cero ancho no visibles para codificar información.               |
-| Video          | Inserción en fotogramas            | Aplica técnicas de esteganografía en imágenes a fotogramas individuales de un vídeo.                          |
-|                | Modificación del tiempo de aparición de fotogramas | Altera el tiempo de aparición de fotogramas para codificar información.                                       |
-| Redes          | Protocolo y metadatos              | Oculta información en cabeceras de protocolos de red, paquetes o metadatos.                                   |
-```
+### 1. **Técnicas de Esteganografía en Imágenes:**
 
+- **Sustitución de bits menos significativos (LSB):** Esta técnica consiste en modificar los bits menos significativos de los píxeles en una imagen para incrustar la información. Dado que los cambios son mínimos, son casi imperceptibles al ojo humano.
+  
+- **Transformada de dominio:** Utiliza métodos matemáticos para modificar ciertos aspectos de una imagen, como la Transformada Discreta de Fourier (DFT) o la Transformada Discreta del Coseno (DCT), para ocultar información. Es comúnmente utilizada en formatos de compresión como JPEG.
+
+- **Máscaras y filtros:** Se aplican sobre la imagen original alterando ciertos aspectos visuales para ocultar la información, de manera que solo pueda ser recuperada a través del uso de la máscara o filtro correcto.
+
+### 2. **Técnicas de Esteganografía en Audio:**
+
+- **Codificación Eco:** Introduce un eco muy sutil en la señal de audio. La presencia o ausencia de este eco en segmentos específicos puede utilizarse para codificar datos.
+
+- **Sustitución de LSB en audio:** Similar a la técnica utilizada en imágenes, esta técnica cambia los bits menos significativos en un archivo de audio para incrustar información sin alterar perceptiblemente la calidad del sonido.
+
+- **Modulación de Frecuencia Espectral (SSM):** Altera ciertas frecuencias dentro de la señal de audio para incrustar información.
+
+### 3. **Técnicas de Esteganografía en Texto:**
+
+- **Formato de texto:** Cambia aspectos del formato del texto, como espacios, tamaño de fuente o color, para representar los datos ocultos.
+
+- **Marcado lingüístico:** Utiliza peculiaridades lingüísticas o patrones gramaticales para ocultar información dentro del texto.
+
+- **Canal Cero Ancho:** Inserta caracteres de espacio o puntuación de cero ancho que no son visibles pero pueden ser interpretados para extraer información oculta.
+
+### 4. **Técnicas de Esteganografía en Video:**
+
+- **Inserción en fotogramas:** Similar a la esteganografía en imágenes, pero aplicada a los fotogramas individuales de un vídeo.
+
+- **Modificación del tiempo de aparición de los fotogramas:** Altera ligeramente el tiempo de aparición de ciertos fotogramas para codificar información.
+
+### 5. **Técnicas de Redes:**
+
+- **Protocolo y metadatos:** Oculta información en cabeceras de protocolos de red, paquetes o metadatos, donde los datos pueden ser encubiertos dentro del tráfico de red normal.
+
+Cada una de estas técnicas tiene sus ventajas y limitaciones en términos de capacidad de datos, detectabilidad y robustez frente a la compresión o transformaciones. La elección de la técnica depende del medio de comunicación y de los requisitos específicos del escenario de comunicación secreta.
 
 
 ---
