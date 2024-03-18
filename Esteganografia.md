@@ -1,3 +1,26 @@
+### Esteganografia
+
+Este cuadro ofrece una vista general y comparativa de las diferentes técnicas de esteganografía, facilitando la comprensión de cómo se pueden ocultar datos en diversos medios de comunicación.
+
+```markdown
+| Medio          | Técnica                            | Descripción                                                                                                   |
+|----------------|------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| Imágenes       | Sustitución de bits menos significativos (LSB) | Modifica los bits menos significativos de los píxeles para incrustar información sin cambios visuales notorios.|
+|                | Transformada de dominio           | Utiliza métodos matemáticos como DFT o DCT en la imagen para ocultar información, común en JPEG.              |
+|                | Máscaras y filtros                 | Altera visualmente la imagen mediante máscaras o filtros para ocultar información.                            |
+| Audio          | Codificación Eco                   | Introduce ecos sutiles en la señal de audio para codificar datos.                                             |
+|                | Sustitución de LSB en audio        | Cambia los bits menos significativos de un archivo de audio para incrustar información.                       |
+|                | Modulación de Frecuencia Espectral (SSM) | Altera frecuencias específicas en la señal de audio para ocultar información.                                 |
+| Texto          | Formato de texto                   | Modifica el formato del texto (espacios, tamaño de fuente, color) para representar datos ocultos.             |
+|                | Marcado lingüístico                | Utiliza peculiaridades lingüísticas para ocultar información dentro del texto.                                |
+|                | Canal Cero Ancho                   | Emplea caracteres de espacio o puntuación de cero ancho no visibles para codificar información.               |
+| Video          | Inserción en fotogramas            | Aplica técnicas de esteganografía en imágenes a fotogramas individuales de un vídeo.                          |
+|                | Modificación del tiempo de aparición de fotogramas | Altera el tiempo de aparición de fotogramas para codificar información.                                       |
+| Redes          | Protocolo y metadatos              | Oculta información en cabeceras de protocolos de red, paquetes o metadatos.                                   |
+```
+
+
+
 ---
 
 # Manual Básico de Steghide
