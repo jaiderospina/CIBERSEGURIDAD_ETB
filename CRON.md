@@ -1,4 +1,4 @@
-# Manual de Uso de Cron en Kali Linux
+## Manual de Uso de Cron en Kali Linux
 
 Cron es un administrador de procesos en segundo plano que ejecuta tareas a intervalos regulares de tiempo. Estas tareas son comúnmente conocidas como "cron jobs". En Kali Linux, puedes configurar cron jobs para automatizar diversas tareas.
 
